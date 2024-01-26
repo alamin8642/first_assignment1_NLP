@@ -1,6 +1,8 @@
 # first_assignment1_NLP
-Natural Language Processing
+
+
 Wikipedia Text Classification
+
 This repository contains Python scripts for a text classification project using Wikipedia articles. The project involves training a logistic regression model on a pre-existing dataset and making predictions on user input. The trained model and TF-IDF vectorizer are then saved for later use.
 
 Files
@@ -8,7 +10,7 @@ train_model.py: Script to load a pre-existing dataset, preprocess the text, use 
 
 prediction_model.py: Script to load the saved model and vectorizer, define text preprocessing and prediction functions, and make predictions on user input.
 
-Dependencies
+Dependencies: 
 wikipedia-api: For accessing Wikipedia content.
 pandas: For handling data in DataFrame format.
 scikit-learn: For machine learning tools, including the logistic regression model and TF-IDF vectorizer.
@@ -20,7 +22,7 @@ Run train_model.py: This script will load the dataset, preprocess the text, trai
 
 Run prediction_model.py: Load the saved model and vectorizer, input a text, and get a prediction for the category of the text.
 
-Notes
+Notes:
 Make sure to install the required dependencies using pip install -r requirements.txt.
 
 Update the user agent in get_wikipedia_content function with your own user agent.
